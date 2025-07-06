@@ -6,8 +6,7 @@ main {
   display: grid;
   grid-template: auto auto auto / 490px 250px;
   width: 740px;
-  color: black;  
-  
+  color: black;
 }
 
 .main-content {
