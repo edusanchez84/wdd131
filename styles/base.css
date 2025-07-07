@@ -40,11 +40,11 @@ nav a:hover {
 }
 
 main {
+    background-color: rgb(217, 208, 208);    
     display:grid;
-    
-    place-items: center;
-    text-align: center;
-    border: 3px solid red;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
 }
 
  h1 {
@@ -54,6 +54,36 @@ main {
     margin: 0;
     color: yellow;
     font-size: 18px;
+}
+
+.card1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(171, 171, 210);
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card2 {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(171, 171, 210);
+    color:black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(1, 67, 67);
+    color: white;
+    padding-top:10px;
+    margin-top: 0;
+    height: 30px;
 }
 
 .myPict {
