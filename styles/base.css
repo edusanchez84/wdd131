@@ -63,7 +63,7 @@ main {
     margin-top: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
-    background-color: rgb(171, 171, 210);
+    background-color: rgb(255, 255, 255);
     color:black;
     border: 1px solid black;
     border-radius: 10px;
@@ -78,10 +78,11 @@ main {
     margin-top: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    background-color: rgb(171, 171, 210);
+    background-color: rgb(255, 255, 255);
     color:black;
     border: 1px solid black;
     border-radius: 10px;
+    display: grid;
 }
 
 h2 {
@@ -110,7 +111,7 @@ h2 {
 }
 
 .myPict {
-    width: 150px;
+    width: 140px;
     height: 230px;
     grid-row: 2 / 3;
     grid-column: 4 / 5;
@@ -119,11 +120,6 @@ h2 {
 .flag {
     width: 150px;
     height: 100px;
-    grid-row: 4 / 4;
-    grid-column: 1 / 2;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 40px;
 }
 
 h3 {
@@ -136,3 +132,37 @@ h3 {
     text-align: center;
 }
 
+figure {
+    grid-row: 4 / 4;
+    grid-column: 1 / 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+figcaption {
+    color: rgb(53, 52, 52);
+    text-align: center;
+    font-size: 12px;
+
+}
+
+#list li {
+    margin: 8px;
+}
+
+footer {
+    background-color: rgb(1, 67, 67);
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.closingLines {
+    margin:0;
+    font-size: 14px;
+    
+}
