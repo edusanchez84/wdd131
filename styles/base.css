@@ -166,3 +166,8 @@ footer {
     font-size: 14px;
     
 }
+
+#lastModified {
+    color: yellow;
+    font-size: 10px;
+}
