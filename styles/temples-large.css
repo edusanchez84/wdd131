@@ -1,0 +1,40 @@
+@media (min-width: 860px) {
+    
+    header {
+        display: flex;
+    }
+    
+    header p {
+        width: 100vw;
+        min-width: 305px;
+    }
+
+    #menu {
+		display: none;
+	}
+
+    nav a {
+        display: block;
+        text-align: center;
+        margin: 40px 40px 30px  40px;
+        margin-left: 0;
+
+    }
+
+    nav {
+        background-color: rgb(1, 67, 67);
+        color: white;
+        font-size: 30px;
+        
+        
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: right;
+        padding-left: 0;
+    }
+
+    
+}

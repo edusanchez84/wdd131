@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Ubuntu", sans-serif, Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color:black;
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header p {
+    color: white;
+    font-size: 50px;
+    padding: 30px;
+    background-color: rgb(1, 67, 67);
+}
+
+#menu {
+    font-size: 3rem;
+	border: 0;
+	background: none;
+	color: white;
+ 	position: absolute;
+	top : 2rem;
+	right : 2rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+.open {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.open a {
+	display: block;
+    color: white;
+    font-size: 40px;
+    background-color: rgb(1, 67, 67);
+    text-align: center;
+    padding: 20px;
+}
+
+
+#menu.open::before {
+	content: "X";
+}
+
+nav a {
+    display: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(1, 67, 67)
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 50px;
+	place-items: center;
+    margin-bottom: 70px;
+    
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-style: bold;
+}
+
+img {
+    width : 270px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    color: rgb(1, 67, 67);
+}
+
+footer {
+    background-color: rgb(1, 67, 67);
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
