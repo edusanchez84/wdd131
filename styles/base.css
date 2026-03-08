@@ -1,5 +1,5 @@
 header {
-    family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     max-width: 1200px;
 }
@@ -63,7 +63,6 @@ main {
 h1 {
     display: grid;
     grid-column: span 3;
-    justify-self: center;
 }
 
 .card {
