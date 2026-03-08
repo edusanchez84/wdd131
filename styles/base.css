@@ -1,25 +1,29 @@
 header {
-    font-family: "Open Sans", sans-serif;
+    family: "Open Sans", sans-serif;
     font-weight: 400;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    max-width: 1000px;
+    max-width: 1200px;
     
  }
 
 #course-title {
     position: relative;
     display: block;
-    padding-left: 200px;
+    text-align: center;
     padding-top: 20px;
     font-size: 20px;
-    background-color: rgb(1, 101, 101);
+    background-color: rgb(1, 65, 65);
     height: 50px;
     color: white;
+}
+
+h1 {
+    justify-self: center;
 }
 
 nav ul {
@@ -51,18 +55,15 @@ nav a:hover {
 main {
     background-color: rgb(217, 208, 208);    
     display:grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 50px 1fr;
     grid-template-columns: 2fr 1fr;
     gap: 15px;
 }
 
- h1 {
-    position: absolute;
-    top: 30px;
-    left: 590px;
-    margin: 0;
-    color: yellow;
-    font-size: 18px;
+h1 {
+    display: grid;
+    grid-column: span 3;
+    justify-self: center;
 }
 
 .card {
@@ -142,6 +143,11 @@ figcaption {
 
 }
 
+ul {
+    grid-column: span 4;
+    grid-row: span 3;
+    align-self: center;
+}
 #list li {
     margin: 8px;
 }
@@ -149,19 +155,19 @@ figcaption {
 footer {
     background-color: rgb(1, 67, 67);
     margin: 0;
-    padding-top: 10px;
+    padding-top: 15px;
     color: white;
     text-align: center;
-    height: 50px;
+    height: 60px;
 }
 
 .closingLines {
     margin:0;
-    font-size: 14px;
+    font-size: 18px;
     
 }
 
 #lastModified {
     color: yellow;
-    font-size: 10px;
+    font-size: 13px;
 }
