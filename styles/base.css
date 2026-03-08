@@ -22,9 +22,6 @@ body {
     color: white;
 }
 
-h1 {
-    justify-self: center;
-}
 
 nav ul {
     display: flex;
@@ -63,6 +60,7 @@ main {
 h1 {
     display: grid;
     grid-column: span 3;
+    justify-self: center;
 }
 
 .card {
