@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: white;
+    background-color: white; 
     font-family: "Ubuntu", sans-serif, Helvetica;
     font-weight: 300;
     font-style: italic;
     color:black;
     font-size: 20px;
-}
+} 
 
 header {
     margin-bottom: 50px;
@@ -35,7 +35,7 @@ header p {
 
 #menu::before {
 	content: "☰";
-}
+} 
 
 .open {
     margin: 0;
